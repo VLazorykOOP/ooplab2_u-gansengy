@@ -23,11 +23,12 @@ int main()
 
         switch (ch) {
         case '1': task1();   break;
-        case '2': task1();   break;
-        case '3': task1();   break;
-        case '4': task1();   break;
+        case '2': task2();   break;
+        case '3': task3();   break;
+        case '4': task4();   break;
 		case '5':  Examples(); break;
 		case '6': return 0;
+        default: return 0;
 	    }
         cout << " Press any key and enter\n";
         ch = cin.get();
